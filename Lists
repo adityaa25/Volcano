@@ -1,0 +1,53 @@
+letters = ['a','b','c','d','e','f']
+
+len(letters)
+print(letters[2:5])
+
+letters[2] = 'C'
+print(letters)
+
+letters.append('g')
+print(letters)
+
+L = letters + ['h','i','j']
+print(L)
+
+L[1:4] = [3,4,5,6]
+print(L)
+
+L[:] = []
+print(L)
+
+a = ['x','y','z']
+b = [1,2,3]
+x = [a,b]
+print(x)
+print(x[:])
+print(x[0][2])
+print(x[1][2])
+
+print("\t=======\t=======")
+
+sample = ['door','mat','lamp','fridge','tv','mat','mat','door','tv']
+print(sample.count('door'))
+print(sample.count('mat'))
+print(sample.index('door'))
+print(sample.index('fridge'))
+print("\t=======\t=======")
+
+sample.reverse()
+print(sample)
+print("\t=======\t=======")
+
+sample.reverse()
+sample.append('car')
+print(sample)
+print("\t=======\t=======")
+
+sample.sort()
+print(sample)
+print("\t=======\t=======")
+
+print(sample.pop(3))
+
+
